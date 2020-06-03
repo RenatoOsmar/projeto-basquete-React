@@ -1,0 +1,33 @@
+.timeCasa {
+    padding: 20px;
+    float: left;
+    margin-left: 40px;
+    background-color:red;
+    border-radius: 10px;
+    border-width: thick;
+
+    
+}
+.timeVisitante {
+    padding: 20px;
+    float: left;
+    margin-left: 40px;
+    background-color: yellow;
+    border-bottom: rgb(75, 62, 67);
+    border-radius: 10px;
+    border-width: thick;
+    border-color: black;
+}
+.informacoes {
+    padding: 20px;
+    float: left;
+    margin-left: 60px;
+    background-color: rgba(66, 76, 77, 0.164);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.tudo {
+    background: blue;
+}
+
+    
