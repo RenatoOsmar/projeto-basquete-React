@@ -10,8 +10,7 @@ const conteudos = {
   timeCasa:{
     nome:'Chicago Bulls',
   }
- 
- },
+ti
 };
 
 //comentario
