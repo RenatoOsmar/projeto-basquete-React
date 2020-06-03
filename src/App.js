@@ -9,8 +9,8 @@ const conteudos = {
   },
   timeCasa:{
     nome:'Chicago Bulls',
-  },
-  timeVisitante:{
+  }
+ 
  },
 };
 
