@@ -11,10 +11,10 @@ const conteudos = {
     nome:'Chicago Bulls',
   },
   timeVisitante:{
-    nome:'Los Angeles Lakers',
-  },
+ },
 };
 
+//comentario
 export default class App extends React.Component {
   renderoosmar(){
     return(
