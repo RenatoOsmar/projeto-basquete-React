@@ -9,8 +9,9 @@ const conteudos = {
   },
   timeCasa:{
     nome:'Chicago Bulls',
-  }
-ti
+  };
+timeVisitante:{
+  nome:'Losangeles lakeres',
 };
 
 //comentario
