@@ -9,19 +9,20 @@ const conteudos = {
   },
   timeCasa:{
     nome:'Chicago Bulls',
-  };
-timeVisitante:{
+  },
+  timeVisitante:{
   nome:'Losangeles lakeres',
+  },
 };
 
-//comentario
 export default class App extends React.Component {
-  renderoosmar(){
+  render() {
     return(
             <BasquetePlacar  Informacoes = {conteudos.Informacoes}
                        timeCasa = {conteudos.timeCasa} 
                        timeVisitante = {conteudos.timeVisitante}/>
     )}
+  
 };
 
 

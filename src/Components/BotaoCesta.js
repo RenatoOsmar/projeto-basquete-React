@@ -7,7 +7,7 @@ export default class BotaoCesta extends React.Component {
     }
     render() {
         return(
-            <button onClick = {this.handleClick.bind(this)}>Cesta !</button>
+            <button onClick = {this.handleClick.bind(this)}>Cesta 2 Pontos</button>
             
         );
     }

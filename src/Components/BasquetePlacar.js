@@ -3,6 +3,7 @@ import Time  from './Time';
 import Partida from './Partida';
 import './App.css';
 
+
 export default class BasquetePlacar extends React.Component {
     constructor(){
         super();
@@ -21,6 +22,24 @@ export default class BasquetePlacar extends React.Component {
             cesta_Visitante:this.state.cesta_Visitante +2,
         });
     };
+    constructor(){
+        super();
+            this.state = {
+                cesta_3_casa:0,
+                cesta_3_Visitante:0,
+            };
+        }
+    marcarCesta_3_casa() {
+        this.setState({
+            cesta_3_casa:this.state.cesta_3_casa + 3,
+        });
+    }
+    marcarCesta_3_visitante() {
+        this.setState({
+            cesta_3_Visitante:this.state.cesta_3_Visitante + 3,
+        });
+    }
+
     render(){
         return(
             
@@ -30,7 +49,8 @@ export default class BasquetePlacar extends React.Component {
                              <h2>Casa</h2>
                                  <Time nome = {this.props.timeCasa.nome}
                                       cestas = {this.state.cesta_Casa}
-                                      marcarCesta = {this.marcarCestaCasa.bind(this)} />
+                                      marcarCesta = {this.marcarCestaCasa.bind(this)}
+                                      cesta_3 = {this.marcarCesta_3_casa.bind(this)} />
                         </div>
 
                         <div className = 'informacoes'>
@@ -43,7 +63,8 @@ export default class BasquetePlacar extends React.Component {
                             <h2>Visitante</h2>
                                  <Time nome = {this.props.timeVisitante.nome}
                                        cestas = {this.state.cesta_Visitante}
-                                       marcarCesta = {this.marcarCestaVisitante.bind(this)} />
+                                       marcarCesta = {this.marcarCestaVisitante.bind(this)}
+                                       cesta_3 = {this.marcarCesta_3_visitante.bind(this) }/>
                          </div>
                     </div>
               </div>
